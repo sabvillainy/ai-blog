@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>İletişim</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <div id="navbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-none">
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Araçlar
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="chatgpt.html">ChatGPT</a>
+                                    <a class="dropdown-item" href="dalle.html">DALL-E</a>
+                                    <a class="dropdown-item" href="sora.html">Sora</a>
+                                    <a class="dropdown-item" href="copilot.html">Co-pilot</a>
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="hakkimda.html">Hakkımda</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="iletisim.html">İletişim</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="main">
+            <div class="container mt-5">
+                <h2>İletişim Formu</h2>
+                <form action="https://formspree.io/f/xjvnoqnd" method="POST">
+                    <div class="form-group">
+                        <label for="name">Adınız</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Adınız" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta Adresiniz</label>
+                        <input type="email" class="form-control" id="email" name="_replyto"
+                            placeholder="E-posta Adresiniz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-dark">Gönder</button>
+                </form>
+            </div>
+
+        </div>
+        <br><br><br><br>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-section hakkimizda">
+                        <h3>Misyonumuz ve Amacımız</h3>
+                        <p>Misyonumuz, yapay zeka alanındaki gelişmeleri takip etmek ve bu teknolojinin günlük hayata
+                            olan etkilerini anlamak için ziyaretçilere güvenilir ve ilgi çekici içerikler sunmaktır.
+                            Yapay Zeki'nin Blogu, yapay zeka konusundaki bilgiyi herkesin anlayabileceği şekilde
+                            aktarmak ve insanların bu alandaki potansiyeli keşfetmelerine yardımcı olmak için buradadır.
+                            Amacımız, yapay zeka hakkında farkındalığı artırmak ve bu alanda bilgi sahibi olmak
+                            isteyenlere kaynak sağlamaktır.</p>
+                    </div>
+                    <div class="footer-section hizli-linkler">
+                        <h3>Hızlı Bağlantılar</h3>
+                        <ul>
+                            <li><a href="index.html">
+                                    <p>Ana Sayfa</p>
+                                </a></li>
+                            <li class="deneme"><a href="chatgpt.html">ChatGPT</a></li>
+                            <li class="deneme"><a href="dalle.html">DALL-E</a></li>
+                            <li class="deneme"><a href="sora.html">Sora</a></li>
+                            <li class="deneme"><a href="copilot.html">Co-Pilot</a></li>
+                            <li><a href="hakkimda.html">
+                                    <p>Hakkımda</p>
+                                </a></li>
+                            <li><a href="iletisim.html">
+                                    <p>İletişim</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/sabvillainy" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/sabvillainy" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/sabhimself" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Yapay Zeki'nin Blogu. Tüm Hakları Saklıdır.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

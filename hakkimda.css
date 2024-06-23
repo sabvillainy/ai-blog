@@ -1,0 +1,34 @@
+#main {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+}
+
+#yazi {
+    width: 70%;
+}
+
+#foto {
+    width: 30%;
+}
+
+#foto img {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 140px;
+}
+
+#baslik {
+    display: flex;
+    justify-content: center;
+}
+
+#yazi2 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#yazi2 {
+    margin-right: 150px;
+    margin-left: 150px;
+}

@@ -1,0 +1,28 @@
+#main {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#main img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+#mainimg {
+    display: flex;
+    justify-content: center;
+}
+
+#main a {
+    background-color: black;
+    border: none;
+}
+
+#main a:hover {
+    background-color: #0d6efd;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}

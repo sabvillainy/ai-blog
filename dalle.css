@@ -1,0 +1,38 @@
+#main{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#main img{
+    display: flex;
+    justify-content: center;
+}
+
+#mainimg{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 110px;
+    margin-bottom: 30px;
+    margin-left: 420px;
+}
+
+#gorsel{
+    display: flex;
+    justify-content: space-between;
+}
+#gorsel img{
+    width: 610px;
+}
+
+#main a{
+    background-color: black;
+    border: none;
+}
+
+#main a:hover {
+    background-color:#0d6efd;
+    transition: 0.3s;
+    text-decoration: none;
+    color:white;
+}
