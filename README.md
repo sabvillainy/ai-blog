@@ -1,5 +1,5 @@
 # Artificial Intelligent's Blog
-Welcome to the repository for "Artificial Intelligent's Blog," a project created as an assignment for my "Internet Programming" course. This blog is dedicated to exploring the fascinating world of artificial intelligence (AI), its tools, and applications. Below you will find an overview of the project and its features.
+Welcome to the repository for "Artificial Intelligent's Blog," a project created as an assignment for my "[Internet Programming](https://vs.ieu.edu.tr/cp/en/syllabus/type/read/id/MBP+102)" lecture. This blog is dedicated to exploring the fascinating world of artificial intelligence (AI), its tools, and applications. Below you will find an overview of the project and its features.
 
 ## Overview
 "Artificial Intelligent's Blog" is a blog website designed to provide comprehensive information about artificial intelligence. The site covers basic concepts of AI, introduces various AI tools such as ChatGPT, DALL-E, Sora, and Copilot, and offers detailed articles, images, and videos for each tool. Additionally, the site includes sections about the author and a contact form to facilitate communication.
